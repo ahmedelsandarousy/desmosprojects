@@ -4,135 +4,138 @@
 
 This repository contains independent mathematical explorations developed using Desmos (2D and 3D graphing tools). The focus is on understanding mathematical behavior through visualization, parameter manipulation, and geometric interpretation.
 
-Rather than treating mathematics as purely symbolic, this work emphasizes **dynamic structure, visual intuition, and computational experimentation**.
+Rather than treating mathematics as purely symbolic manipulation, this work emphasizes the relationship between algebraic structure, geometric intuition, and dynamic behavior.
 
 ---
 
 ## Core Mathematical Focus
 
-- Function behavior and transformation
-- Parametric and dynamic systems
-- Geometric interpretation of equations
-- Multivariable and 3D visualization
-- Exploration of structure through parameters
+- Function behavior and transformations  
+- Parametric and polar systems  
+- Calculus and slope fields  
+- Multivariable geometry and 3D surfaces  
+- Linear algebra and vector spaces  
+- Empirical modeling and regression analysis  
 
 ---
 
 # Projects
 
-## Project 1: Power Regression Analysis of Prime Number Growth
-🔗 https://www.desmos.com/calculator/sy99moknz5
+## Project 1: Power Regression Analysis of Prime Number Growth  
+🔗 https://www.desmos.com/calculator/sy99moknz5  
 
-### Concept
-This project explores the relationship between natural numbers and the sequence of prime numbers by applying a power regression model to approximate the growth pattern of primes. The goal was to investigate whether a simple algebraic model can capture the overall trend in prime distribution when plotted against their index in the sequence.
+### Concept  
+This project explores the relationship between natural numbers and the sequence of prime numbers by applying a power regression model to approximate the growth pattern of primes.
 
-### Mathematical Focus
-- Empirical curve fitting of discrete sequences
-- Power regression modeling
-- Comparison between discrete data and continuous functions
-- Limitations of smooth approximations for non-uniform sequences
+### Mathematical Focus  
+- Empirical curve fitting of discrete sequences  
+- Power regression modeling  
+- Continuous vs discrete comparison  
 
-### Insight
-The regression provides a general trend of growth but fails to capture the irregular spacing of prime numbers. This highlights a fundamental distinction between smooth algebraic models and discrete mathematical structures, showing that primes do not follow a simple continuous growth law even though their overall magnitude increases predictably.
----
-
-## Project 2: Slope Field Exploration of the Fresnel Sine Function
-🔗 https://www.desmos.com/calculator/tglzywiijr
-
-### Concept
-This project explores the behavior of the Fresnel sine function through the visualization of its associated slope field. The goal is to understand how a function defined by an oscillatory integral behaves locally by examining directional change patterns rather than only its explicit form.
-
-### Mathematical Focus
-- Differential equations and slope fields
-- Oscillatory integrals and wave-like behavior
-- Local rate of change vs global function behavior
-- Visualization of non-elementary functions
-
-### Insight
-The slope field reveals the underlying oscillatory structure of the Fresnel sine function, showing how local directional behavior accumulates into a complex wave-like curve. Unlike standard elementary functions, the Fresnel function demonstrates how smooth local slopes can produce intricate global patterns, emphasizing the connection between differential behavior and integral-defined functions.
----
-
-## Project 3: Volume of a Solid Defined by a Surface and Single-Variable Integral Base
-🔗 https://www.desmos.com/3d/fzl2acsj9n
-
-### Concept
-This project explores the construction of a 3D solid whose volume is defined by the region under a surface, where the base structure is determined using a single-variable integral. The goal is to visualize how integration extends from one-dimensional accumulation to three-dimensional geometric interpretation.
-
-### Mathematical Focus
-- Definite integrals as area accumulation
-- Extension from 2D regions to 3D solids
-- Relationship between functions, area, and volume
-- Geometric interpretation of integration in higher dimensions
-
-### Insight
-The visualization demonstrates how a single-variable integral, typically interpreted as area under a curve, can serve as the foundation for constructing a three-dimensional solid. This highlights the geometric meaning of integration as accumulation, not just in one dimension but as a building block for volume in space.
----
-
-## Project 4: Area Under a Parametric Curve vs Cartesian Representation
-🔗 https://www.desmos.com/calculator/pf7mv8zq5x
-
-### Concept
-This project compares the computation and visualization of area under a curve when expressed in parametric form versus its equivalent Cartesian representation. The goal is to investigate how different representations of the same curve affect both geometric interpretation and area calculation.
-
-### Mathematical Focus
-- Parametric equations vs Cartesian equations
-- Area under curves in different representations
-- Definite integrals in parametric form
-- Equivalence of geometric results across coordinate systems
-
-### Insight
-Although the curve remains geometrically identical, its parametric and Cartesian representations lead to different computational approaches for finding area. The parametric form highlights how area can be expressed in terms of a parameter, while the Cartesian form relies directly on integration over x. This demonstrates that mathematical representation affects not the geometry itself, but the method of analysis and computation.
+### Insight  
+The regression captures a general growth trend but fails to model the irregular spacing of primes. This highlights the limitation of smooth continuous functions when applied to discrete mathematical structures.
 
 ---
 
-## Project 5: 3D Hyperbolic Paraboloid Regression Model
-🔗 https://www.desmos.com/3d/z5pxr4y5tc
+## Project 2: Slope Field Exploration of the Fresnel Sine Function  
+🔗 https://www.desmos.com/calculator/tglzywiijr  
 
-### Concept
-This project explores a three-dimensional regression model based on a hyperbolic paraboloid surface. The goal is to investigate how multivariable regression techniques can approximate saddle-shaped geometry and how parameter variation affects curvature and surface structure in three-dimensional space.
+### Concept  
+This project visualizes the slope field of the Fresnel sine function to analyze its local directional behavior.
 
-### Mathematical Focus
-- Hyperbolic paraboloids and saddle surfaces
-- Multivariable functions and 3D geometry
-- Regression-based surface approximation
-- Curvature and parameter-driven deformation in ℝ³
+### Mathematical Focus  
+- Differential equations  
+- Slope fields  
+- Oscillatory integrals  
 
-### Insight
-The hyperbolic paraboloid demonstrates how a surface can curve simultaneously in opposite directions, producing saddle-like geometry that differs fundamentally from standard parabolic surfaces. The regression model highlights how multivariable parameter changes influence curvature across multiple axes at once, emphasizing the geometric complexity of higher-dimensional systems.
+### Insight  
+The slope field reveals how local oscillatory behavior accumulates into a complex global wave pattern, demonstrating the connection between local derivatives and global structure.
+
 ---
+
+## Project 3: Volume of a Solid Defined by a Surface and Integral Base  
+🔗 https://www.desmos.com/3d/fzl2acsj9n  
+
+### Concept  
+This project visualizes a 3D solid formed under a surface where the base is defined using a single-variable integral.
+
+### Mathematical Focus  
+- Definite integrals  
+- Area to volume extension  
+- 3D geometric interpretation  
+
+### Insight  
+This demonstrates how one-dimensional integration extends naturally into three-dimensional volume construction, reinforcing integration as a process of accumulation across dimensions.
+
+---
+
+## Project 4: Parametric vs Cartesian Area Comparison  
+🔗 https://www.desmos.com/calculator/pf7mv8zq5x  
+
+### Concept  
+This project compares area computation under curves expressed in both parametric and Cartesian forms.
+
+### Mathematical Focus  
+- Parametric equations  
+- Cartesian representations  
+- Area under curves  
+
+### Insight  
+Although both representations describe the same geometry, they require fundamentally different integration approaches, showing how representation affects mathematical method but not geometric meaning.
+
+---
+
+## Project 5: 3D Hyperbolic Paraboloid Regression Model  
+🔗 https://www.desmos.com/3d/z5pxr4y5tc  
+
+### Concept  
+This project explores a hyperbolic paraboloid surface modeled using regression techniques in three dimensions.
+
+### Mathematical Focus  
+- Multivariable functions  
+- Hyperbolic paraboloids  
+- Surface approximation in ℝ³  
+
+### Insight  
+The saddle-shaped structure demonstrates how curvature can vary in opposite directions simultaneously, illustrating the complexity of multivariable surfaces and parameter sensitivity in 3D models.
+
+---
+
 ## Project 6: Span of Two Vectors in ℝ³ (Linear Algebra)  
 🔗 https://www.desmos.com/3d/allvxswnel  
 
 ### Concept  
-This project explores a core concept in linear algebra: the span of two vectors in three-dimensional space. By visualizing all linear combinations of the form \( c_1 \mathbf{a} + c_2 \mathbf{b} \), the project demonstrates how two non-collinear vectors generate a plane through the origin, forming a two-dimensional subspace in ℝ³.
+This project explores the span of two vectors in three-dimensional space using linear combinations.
 
 ### Mathematical Focus  
-- Linear algebra in ℝ³  
-- Span of vectors and linear combinations  
-- Subspaces and vector spaces  
-- Linear independence  
-- Geometric interpretation of planes through the origin  
+- Linear combinations  
+- Span and subspaces  
+- Vector spaces in ℝ³  
 
 ### Insight  
-The visualization shows that two linearly independent vectors define an infinite plane in space, where every point on the plane can be expressed as a linear combination of the two vectors. This reinforces the idea that span determines dimension: one vector forms a line (1D subspace), while two independent vectors form a plane (2D subspace), illustrating the foundational structure of vector spaces.
+Two linearly independent vectors generate a plane through the origin, showing that span determines dimension. This reinforces the geometric interpretation of linear algebra concepts such as subspaces and independence.
+
+---
+
 ## Tools Used
 
-- Desmos Graphing Calculator (2D + 3D)
-- Analytical mathematical reasoning
-- Parameter experimentation
-- Visual validation of mathematical behavior
+- [Desmos Graphing Calculator](https://www.desmos.com/calculator?utm_source=chatgpt.com) (2D and 3D visualization)  
+- Analytical mathematical reasoning  
+- Parameter experimentation  
+- Geometric interpretation of functions and vectors  
 
 ---
 
 ## Overall Reflection
 
-These projects represent an ongoing effort to bridge symbolic mathematics and geometric intuition. By exploring functions dynamically and visually, the goal is to build a deeper conceptual understanding of mathematical structure beyond procedural computation.
+These projects represent an ongoing exploration of mathematics through visualization, modeling, and computational experimentation. The goal is to develop deeper intuition for mathematical structures by connecting symbolic expressions with geometric and dynamic representations.
 
 ---
 
 ## Future Directions
 
-- Transition to Python-based simulations for numerical modeling
-- Exploration of differential equations and dynamic systems
-- Fractal and chaos-based visualizations
-- Deeper multivariable and vector field analysis
+- Python-based numerical simulations  
+- Differential equations and dynamic systems  
+- Fractals and chaos theory  
+- Deeper multivariable geometry and vector field analysis  
+- Comparison between theoretical models and empirical approximations  
