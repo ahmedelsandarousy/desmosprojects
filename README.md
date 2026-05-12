@@ -100,7 +100,21 @@ This project explores a three-dimensional regression model based on a hyperbolic
 ### Insight
 The hyperbolic paraboloid demonstrates how a surface can curve simultaneously in opposite directions, producing saddle-like geometry that differs fundamentally from standard parabolic surfaces. The regression model highlights how multivariable parameter changes influence curvature across multiple axes at once, emphasizing the geometric complexity of higher-dimensional systems.
 ---
+## Project 6: Span of Two Vectors in ℝ³ (Linear Algebra)  
+🔗 https://www.desmos.com/3d/allvxswnel  
 
+### Concept  
+This project explores a core concept in linear algebra: the span of two vectors in three-dimensional space. By visualizing all linear combinations of the form \( c_1 \mathbf{a} + c_2 \mathbf{b} \), the project demonstrates how two non-collinear vectors generate a plane through the origin, forming a two-dimensional subspace in ℝ³.
+
+### Mathematical Focus  
+- Linear algebra in ℝ³  
+- Span of vectors and linear combinations  
+- Subspaces and vector spaces  
+- Linear independence  
+- Geometric interpretation of planes through the origin  
+
+### Insight  
+The visualization shows that two linearly independent vectors define an infinite plane in space, where every point on the plane can be expressed as a linear combination of the two vectors. This reinforces the idea that span determines dimension: one vector forms a line (1D subspace), while two independent vectors form a plane (2D subspace), illustrating the foundational structure of vector spaces.
 ## Tools Used
 
 - Desmos Graphing Calculator (2D + 3D)
