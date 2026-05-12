@@ -20,84 +20,85 @@ Rather than treating mathematics as purely symbolic, this work emphasizes **dyna
 
 # Projects
 
-## Project 1: Function Behavior & Transformation Study
+## Project 1: Power Regression Analysis of Prime Number Growth
 🔗 https://www.desmos.com/calculator/sy99moknz5
 
 ### Concept
-This project explores how changes in function parameters affect graph structure, including stretching, shifting, and curvature changes.
+This project explores the relationship between natural numbers and the sequence of prime numbers by applying a power regression model to approximate the growth pattern of primes. The goal was to investigate whether a simple algebraic model can capture the overall trend in prime distribution when plotted against their index in the sequence.
 
 ### Mathematical Focus
-- Function transformations
-- Parameter sensitivity
-- Graph behavior under algebraic modification
+- Empirical curve fitting of discrete sequences
+- Power regression modeling
+- Comparison between discrete data and continuous functions
+- Limitations of smooth approximations for non-uniform sequences
 
 ### Insight
-Small changes in parameters can lead to significant structural changes in graph behavior, revealing the sensitivity of nonlinear systems.
-
+The regression provides a general trend of growth but fails to capture the irregular spacing of prime numbers. This highlights a fundamental distinction between smooth algebraic models and discrete mathematical structures, showing that primes do not follow a simple continuous growth law even though their overall magnitude increases predictably.
 ---
 
-## Project 2: Dynamic Parametric System Exploration
+## Project 2: Slope Field Exploration of the Fresnel Sine Function
 🔗 https://www.desmos.com/calculator/tglzywiijr
 
 ### Concept
-This exploration focuses on parametric or dynamically changing systems, where variables evolve in relation to each other rather than being independent.
+This project explores the behavior of the Fresnel sine function through the visualization of its associated slope field. The goal is to understand how a function defined by an oscillatory integral behaves locally by examining directional change patterns rather than only its explicit form.
 
 ### Mathematical Focus
-- Parametric relationships
-- Time-dependent or variable-dependent structure
-- Continuous transformation of curves
+- Differential equations and slope fields
+- Oscillatory integrals and wave-like behavior
+- Local rate of change vs global function behavior
+- Visualization of non-elementary functions
 
 ### Insight
-Representing relationships parametrically provides a more natural understanding of motion and change compared to static Cartesian functions.
-
+The slope field reveals the underlying oscillatory structure of the Fresnel sine function, showing how local directional behavior accumulates into a complex wave-like curve. Unlike standard elementary functions, the Fresnel function demonstrates how smooth local slopes can produce intricate global patterns, emphasizing the connection between differential behavior and integral-defined functions.
 ---
 
-## Project 3: Multivariable 3D Surface Visualization
+## Project 3: Volume of a Solid Defined by a Surface and Single-Variable Integral Base
 🔗 https://www.desmos.com/3d/fzl2acsj9n
 
 ### Concept
-This project investigates 3D surfaces defined by multivariable functions, focusing on geometric interpretation of higher-dimensional structure.
+This project explores the construction of a 3D solid whose volume is defined by the region under a surface, where the base structure is determined using a single-variable integral. The goal is to visualize how integration extends from one-dimensional accumulation to three-dimensional geometric interpretation.
 
 ### Mathematical Focus
-- Functions of two variables
-- Surface geometry in 3D space
-- Spatial interpretation of algebraic expressions
+- Definite integrals as area accumulation
+- Extension from 2D regions to 3D solids
+- Relationship between functions, area, and volume
+- Geometric interpretation of integration in higher dimensions
 
 ### Insight
-Extending functions into 3D reveals curvature, symmetry, and structure that are not visible in 2D representations.
-
+The visualization demonstrates how a single-variable integral, typically interpreted as area under a curve, can serve as the foundation for constructing a three-dimensional solid. This highlights the geometric meaning of integration as accumulation, not just in one dimension but as a building block for volume in space.
 ---
 
-## Project 4: Advanced Function Structure Analysis
+## Project 4: Area Under a Parametric Curve vs Cartesian Representation
 🔗 https://www.desmos.com/calculator/pf7mv8zq5x
 
 ### Concept
-This project analyzes how combinations of functions interact to produce complex overall behavior.
+This project compares the computation and visualization of area under a curve when expressed in parametric form versus its equivalent Cartesian representation. The goal is to investigate how different representations of the same curve affect both geometric interpretation and area calculation.
 
 ### Mathematical Focus
-- Function composition
-- Interaction of multiple terms
-- Nonlinear behavior analysis
+- Parametric equations vs Cartesian equations
+- Area under curves in different representations
+- Definite integrals in parametric form
+- Equivalence of geometric results across coordinate systems
 
 ### Insight
-Complex graphs often emerge from simple components, showing how layered functions can generate rich mathematical structure.
+Although the curve remains geometrically identical, its parametric and Cartesian representations lead to different computational approaches for finding area. The parametric form highlights how area can be expressed in terms of a parameter, while the Cartesian form relies directly on integration over x. This demonstrates that mathematical representation affects not the geometry itself, but the method of analysis and computation.
 
 ---
 
-## Project 5: Extended 3D Mathematical Modeling
+## Project 5: 3D Hyperbolic Paraboloid Regression Model
 🔗 https://www.desmos.com/3d/z5pxr4y5tc
 
 ### Concept
-This project extends 3D visualization techniques to explore more complex surface structures and spatial relationships.
+This project explores a three-dimensional regression model based on a hyperbolic paraboloid surface. The goal is to investigate how multivariable regression techniques can approximate saddle-shaped geometry and how parameter variation affects curvature and surface structure in three-dimensional space.
 
 ### Mathematical Focus
-- 3D parametric/surface modeling
-- Multivariable function behavior
-- Geometric interpretation of higher-dimensional equations
+- Hyperbolic paraboloids and saddle surfaces
+- Multivariable functions and 3D geometry
+- Regression-based surface approximation
+- Curvature and parameter-driven deformation in ℝ³
 
 ### Insight
-3D modeling provides a deeper understanding of how variables interact simultaneously in space, not just along a single axis.
-
+The hyperbolic paraboloid demonstrates how a surface can curve simultaneously in opposite directions, producing saddle-like geometry that differs fundamentally from standard parabolic surfaces. The regression model highlights how multivariable parameter changes influence curvature across multiple axes at once, emphasizing the geometric complexity of higher-dimensional systems.
 ---
 
 ## Tools Used
