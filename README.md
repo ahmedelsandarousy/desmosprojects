@@ -1,98 +1,123 @@
-# Mathematical Modeling & Computational Visualization Portfolio
+# Mathematical Visualization & Computational Exploration Portfolio
 
 ## Overview
 
-This repository contains a collection of independent mathematical explorations focused on visualizing, modeling, and analyzing mathematical concepts through interactive graphs and simulations. The work emphasizes conceptual understanding through experimentation, computational thinking, and visualization.
+This repository contains independent mathematical explorations developed using Desmos (2D and 3D graphing tools). The focus is on understanding mathematical behavior through visualization, parameter manipulation, and geometric interpretation.
 
-These projects were developed independently using Desmos and related computational tools as part of a broader interest in mathematics, physics, and applied modeling.
-
----
-
-## Research Focus
-
-The primary goal of this portfolio is to explore how abstract mathematical ideas can be translated into visual and computational representations. This includes:
-
-- Understanding behavior of functions beyond algebraic form
-- Investigating geometric and analytic structures through visualization
-- Modeling physical systems using mathematical equations
-- Exploring numerical approximations and transformations
-- Developing intuition for multivariable and dynamic systems
+Rather than treating mathematics as purely symbolic, this work emphasizes **dynamic structure, visual intuition, and computational experimentation**.
 
 ---
 
-## Core Mathematical Areas Explored
+## Core Mathematical Focus
 
-### 1. Calculus & Function Behavior
-- Limits, continuity, and asymptotic behavior
-- Derivatives as rates of change in dynamic systems
-- Function transformations and parameter effects
-- Local vs global behavior of functions
-
-### 2. Parametric & Polar Systems
-- Parametric motion and trajectory modeling
-- Polar coordinate transformations and curve generation
-- Relationship between algebraic form and geometric shape
-
-### 3. Multivariable Visualization
-- 3D surface representations using parametric approximations
-- Level curves and contour interpretation
-- Geometric interpretation of functions of multiple variables
-
-### 4. Mathematical Modeling
-- Simplified physical simulations (motion, growth, decay)
-- Curve fitting and regression-based approximations
-- Exploration of periodic and oscillatory systems
+- Function behavior and transformation
+- Parametric and dynamic systems
+- Geometric interpretation of equations
+- Multivariable and 3D visualization
+- Exploration of structure through parameters
 
 ---
 
-## Selected Projects
+# Projects
 
-Each project includes:
-- Mathematical formulation
-- Visual representation
-- Observations and insights
+## Project 1: Function Behavior & Transformation Study
+🔗 https://www.desmos.com/calculator/sy99moknz5
 
-### Project 1: Parametric Motion Under Gravity
-Modeled projectile motion using parametric equations, analyzing the effect of initial velocity and angle on trajectory shape. Extended to include simplified air resistance approximations.
+### Concept
+This project explores how changes in function parameters affect graph structure, including stretching, shifting, and curvature changes.
 
-### Project 2: Fourier Approximation Visualizer
-Explored how complex periodic functions can be approximated using sums of sine and cosine functions, demonstrating convergence behavior visually.
+### Mathematical Focus
+- Function transformations
+- Parameter sensitivity
+- Graph behavior under algebraic modification
 
-### Project 3: Polar Curve Transformations
-Investigated how changes in polar equations affect symmetry, rotation, and scaling of curves, including rose curves and spirals.
-
-### Project 4: Multivariable Surface Approximation
-Constructed visual representations of 3D surfaces using parametric slicing techniques to approximate behavior of functions of two variables.
+### Insight
+Small changes in parameters can lead to significant structural changes in graph behavior, revealing the sensitivity of nonlinear systems.
 
 ---
 
-## Tools & Methods
+## Project 2: Dynamic Parametric System Exploration
+🔗 https://www.desmos.com/calculator/tglzywiijr
 
-- Desmos Graphing Calculator (primary tool)
-- Analytical reasoning using algebra and calculus concepts
-- Numerical approximation techniques
-- Iterative parameter experimentation
+### Concept
+This exploration focuses on parametric or dynamically changing systems, where variables evolve in relation to each other rather than being independent.
+
+### Mathematical Focus
+- Parametric relationships
+- Time-dependent or variable-dependent structure
+- Continuous transformation of curves
+
+### Insight
+Representing relationships parametrically provides a more natural understanding of motion and change compared to static Cartesian functions.
+
+---
+
+## Project 3: Multivariable 3D Surface Visualization
+🔗 https://www.desmos.com/3d/fzl2acsj9n
+
+### Concept
+This project investigates 3D surfaces defined by multivariable functions, focusing on geometric interpretation of higher-dimensional structure.
+
+### Mathematical Focus
+- Functions of two variables
+- Surface geometry in 3D space
+- Spatial interpretation of algebraic expressions
+
+### Insight
+Extending functions into 3D reveals curvature, symmetry, and structure that are not visible in 2D representations.
+
+---
+
+## Project 4: Advanced Function Structure Analysis
+🔗 https://www.desmos.com/calculator/pf7mv8zq5x
+
+### Concept
+This project analyzes how combinations of functions interact to produce complex overall behavior.
+
+### Mathematical Focus
+- Function composition
+- Interaction of multiple terms
+- Nonlinear behavior analysis
+
+### Insight
+Complex graphs often emerge from simple components, showing how layered functions can generate rich mathematical structure.
+
+---
+
+## Project 5: Extended 3D Mathematical Modeling
+🔗 https://www.desmos.com/3d/z5pxr4y5tc
+
+### Concept
+This project extends 3D visualization techniques to explore more complex surface structures and spatial relationships.
+
+### Mathematical Focus
+- 3D parametric/surface modeling
+- Multivariable function behavior
+- Geometric interpretation of higher-dimensional equations
+
+### Insight
+3D modeling provides a deeper understanding of how variables interact simultaneously in space, not just along a single axis.
+
+---
+
+## Tools Used
+
+- Desmos Graphing Calculator (2D + 3D)
+- Analytical mathematical reasoning
+- Parameter experimentation
 - Visual validation of mathematical behavior
 
 ---
 
-## Purpose & Motivation
+## Overall Reflection
 
-This work is motivated by a deeper interest in understanding mathematics as a dynamic system rather than a static set of rules. By visualizing equations and experimenting with parameters, the goal is to develop stronger mathematical intuition and bridge the gap between symbolic and geometric reasoning.
-
----
-
-## Future Work
-
-Planned extensions include:
-- Differential equation simulations
-- Chaos and fractal systems exploration
-- More advanced multivariable modeling
-- Transition to Python-based numerical simulations
-- Integration of physics-based modeling (mechanics and fields)
+These projects represent an ongoing effort to bridge symbolic mathematics and geometric intuition. By exploring functions dynamically and visually, the goal is to build a deeper conceptual understanding of mathematical structure beyond procedural computation.
 
 ---
 
-## Note
+## Future Directions
 
-This is an independent learning portfolio developed outside of formal coursework to explore mathematical ideas in a more intuitive and visual way.
+- Transition to Python-based simulations for numerical modeling
+- Exploration of differential equations and dynamic systems
+- Fractal and chaos-based visualizations
+- Deeper multivariable and vector field analysis
